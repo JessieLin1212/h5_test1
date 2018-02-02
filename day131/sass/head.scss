@@ -1,0 +1,13 @@
+$mainColor:skyblue;
+$pd:5px;
+header{
+    $pd:10px !global;
+    $pd:10px;
+    width: 800px;height: 300px;background-color: #000;padding: $pd;
+    .container{
+        width: 400px;height: 200px;background-color: red;
+        ul,li{list-style:none;}
+        ul{font-size: 20px;color: blue;}
+        li{width: 80px;height: 30px;line-height: 30px;float: left;background-color: $mainColor;}
+    }
+}
